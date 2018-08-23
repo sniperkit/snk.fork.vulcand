@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package command
 
 import (
 	"github.com/codegangsta/cli"
 	"github.com/vulcand/route"
-	"github.com/vulcand/vulcand/engine"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
 )
 
 func NewFrontendCommand(cmd *Command) cli.Command {

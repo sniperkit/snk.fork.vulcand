@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"os"
 
-	"github.com/vulcand/vulcand/plugin/registry"
-	"github.com/vulcand/vulcand/vctl/command"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/registry"
+	"github.com/sniperkit/snk.fork.vulcand/vctl/command"
 )
 
 var vulcanUrl string

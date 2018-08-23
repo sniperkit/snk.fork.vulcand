@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package api
 
 import (
@@ -14,10 +19,11 @@ import (
 
 	"github.com/gorilla/mux"
 	log "github.com/sirupsen/logrus"
-	"github.com/vulcand/vulcand/anomaly"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/plugin"
-	"github.com/vulcand/vulcand/router"
+
+	"github.com/sniperkit/snk.fork.vulcand/anomaly"
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
+	"github.com/sniperkit/snk.fork.vulcand/router"
 )
 
 type ProxyController struct {

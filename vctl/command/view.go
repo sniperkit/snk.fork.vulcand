@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package command
 
 import (
@@ -5,7 +10,8 @@ import (
 	"sort"
 
 	"github.com/buger/goterm"
-	"github.com/vulcand/vulcand/engine"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
 )
 
 func hostsView(hs []engine.Host) string {

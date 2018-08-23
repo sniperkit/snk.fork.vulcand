@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package command
 
 import (
@@ -9,7 +14,8 @@ import (
 
 	"github.com/buger/goterm"
 	log "github.com/sirupsen/logrus"
-	"github.com/vulcand/vulcand/engine"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
 )
 
 func frontendsOverview(frontends []engine.Frontend) string {

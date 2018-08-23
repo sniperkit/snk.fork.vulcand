@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 var TOC = {
     load: function () {
         $('#toc_button').click(TOC.toggle);

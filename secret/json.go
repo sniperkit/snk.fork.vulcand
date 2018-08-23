@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package secret
 
 import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/vulcand/vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/engine"
 )
 
 type sealedValue struct {

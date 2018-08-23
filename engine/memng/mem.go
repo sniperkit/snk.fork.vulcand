@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // package memng provides in memory engine implementation, mostly used for test purposes
 package memng
 
@@ -7,8 +12,9 @@ import (
 
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/plugin"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
 )
 
 // Mem is exported to provide easy access to its internals

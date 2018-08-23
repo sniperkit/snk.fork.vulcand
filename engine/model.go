@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package model defines interfaces and structures controlling the proxy configuration.
 package engine
 
@@ -14,8 +19,9 @@ import (
 	"github.com/vulcand/oxy/buffer"
 	"github.com/vulcand/oxy/memmetrics"
 	"github.com/vulcand/route"
-	"github.com/vulcand/vulcand/plugin"
-	"github.com/vulcand/vulcand/router"
+
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
+	"github.com/sniperkit/snk.fork.vulcand/router"
 )
 
 // StatsProvider provides realtime stats abount endpoints, backends and locations

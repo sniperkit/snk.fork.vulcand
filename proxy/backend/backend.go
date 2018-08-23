@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package backend
 
 import (
@@ -9,8 +14,9 @@ import (
 
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/proxy"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/proxy"
 )
 
 // T represents a backend type. It maintains a list of backend servers and

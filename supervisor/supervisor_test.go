@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package supervisor
 
 import (
@@ -8,14 +13,15 @@ import (
 
 	"github.com/mailgun/timetools"
 	"github.com/vulcand/oxy/testutils"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/engine/memng"
-	"github.com/vulcand/vulcand/plugin/registry"
-	"github.com/vulcand/vulcand/proxy"
-	"github.com/vulcand/vulcand/proxy/builder"
-	"github.com/vulcand/vulcand/stapler"
-	. "github.com/vulcand/vulcand/testutils"
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/engine/memng"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/registry"
+	"github.com/sniperkit/snk.fork.vulcand/proxy"
+	"github.com/sniperkit/snk.fork.vulcand/proxy/builder"
+	"github.com/sniperkit/snk.fork.vulcand/stapler"
+	. "github.com/sniperkit/snk.fork.vulcand/testutils"
 )
 
 func TestSupervisor(t *testing.T) { TestingT(t) }

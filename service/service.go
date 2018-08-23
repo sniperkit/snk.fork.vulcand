@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package service
 
 import (
@@ -20,18 +25,19 @@ import (
 	"github.com/mailgun/metrics"
 	log "github.com/sirupsen/logrus"
 	logrus_syslog "github.com/sirupsen/logrus/hooks/syslog"
-	"github.com/vulcand/vulcand/api"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/engine/etcdv2ng"
-	"github.com/vulcand/vulcand/engine/etcdv3ng"
-	"github.com/vulcand/vulcand/graceful"
-	"github.com/vulcand/vulcand/plugin"
-	"github.com/vulcand/vulcand/plugin/cacheprovider"
-	"github.com/vulcand/vulcand/proxy"
-	"github.com/vulcand/vulcand/proxy/builder"
-	"github.com/vulcand/vulcand/secret"
-	"github.com/vulcand/vulcand/stapler"
-	"github.com/vulcand/vulcand/supervisor"
+
+	"github.com/sniperkit/snk.fork.vulcand/api"
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/engine/etcdv2ng"
+	"github.com/sniperkit/snk.fork.vulcand/engine/etcdv3ng"
+	"github.com/sniperkit/snk.fork.vulcand/graceful"
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/cacheprovider"
+	"github.com/sniperkit/snk.fork.vulcand/proxy"
+	"github.com/sniperkit/snk.fork.vulcand/proxy/builder"
+	"github.com/sniperkit/snk.fork.vulcand/secret"
+	"github.com/sniperkit/snk.fork.vulcand/stapler"
+	"github.com/sniperkit/snk.fork.vulcand/supervisor"
 )
 
 type ControlCode int

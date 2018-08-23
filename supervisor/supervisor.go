@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package supervisor
 
 import (
@@ -8,8 +13,9 @@ import (
 	"github.com/mailgun/timetools"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/proxy"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/proxy"
 )
 
 const (

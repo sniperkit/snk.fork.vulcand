@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package frontend
 
 import (
@@ -15,11 +20,12 @@ import (
 	"github.com/vulcand/oxy/memmetrics"
 	"github.com/vulcand/oxy/roundrobin"
 	"github.com/vulcand/oxy/stream"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/plugin"
-	"github.com/vulcand/vulcand/proxy"
-	"github.com/vulcand/vulcand/proxy/backend"
-	"github.com/vulcand/vulcand/proxy/rtmcollect"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
+	"github.com/sniperkit/snk.fork.vulcand/proxy"
+	"github.com/sniperkit/snk.fork.vulcand/proxy/backend"
+	"github.com/sniperkit/snk.fork.vulcand/proxy/rtmcollect"
 )
 
 // T represents a frontend instance. It implements http.Handler interface to be

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package ratelimit
 
 import (
@@ -10,8 +15,9 @@ import (
 	"github.com/codegangsta/cli"
 	"github.com/mailgun/timetools"
 	"github.com/vulcand/oxy/testutils"
-	"github.com/vulcand/vulcand/plugin"
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
 )
 
 func TestRL(t *testing.T) { TestingT(t) }

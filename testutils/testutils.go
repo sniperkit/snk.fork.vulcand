@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package testutils
 
 import (
@@ -8,9 +13,10 @@ import (
 	"sync/atomic"
 
 	routelib "github.com/vulcand/route"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/plugin/ratelimit"
 	"golang.org/x/crypto/ocsp"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/ratelimit"
 )
 
 func init() {

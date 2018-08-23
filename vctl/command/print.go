@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package command
 
 import (
@@ -6,7 +11,8 @@ import (
 	"io"
 
 	"github.com/buger/goterm"
-	"github.com/vulcand/vulcand/engine"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
 )
 
 func (cmd *Command) printResult(format string, in interface{}, err error) {

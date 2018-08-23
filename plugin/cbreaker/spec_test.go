@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cbreaker
 
 import (
@@ -6,8 +11,9 @@ import (
 	"time"
 
 	"github.com/codegangsta/cli"
-	"github.com/vulcand/vulcand/plugin"
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
 )
 
 func TestCL(t *testing.T) { TestingT(t) }

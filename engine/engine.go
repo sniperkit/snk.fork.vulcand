@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package engine
 
 import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/vulcand/vulcand/plugin"
+
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
 )
 
 type NewEngineFn func() (Engine, error)

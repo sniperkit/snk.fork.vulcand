@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package server
 
 import (
@@ -13,14 +18,15 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"github.com/vulcand/route"
-	"github.com/vulcand/vulcand/conntracker"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/graceful"
-	"github.com/vulcand/vulcand/proxy"
-	"github.com/vulcand/vulcand/stapler"
 	"golang.org/x/crypto/acme"
 	"golang.org/x/crypto/acme/autocert"
 	"golang.org/x/crypto/ocsp"
+
+	"github.com/sniperkit/snk.fork.vulcand/conntracker"
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/graceful"
+	"github.com/sniperkit/snk.fork.vulcand/proxy"
+	"github.com/sniperkit/snk.fork.vulcand/stapler"
 )
 
 type getCertificateFunc func(*tls.ClientHelloInfo) (*tls.Certificate, error)

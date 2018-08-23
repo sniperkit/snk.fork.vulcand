@@ -1,13 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // This file will be generated to include all customer specific middlewares
 package registry
 
 import (
-	"github.com/vulcand/vulcand/plugin"
-	"github.com/vulcand/vulcand/plugin/cbreaker"
-	"github.com/vulcand/vulcand/plugin/connlimit"
-	"github.com/vulcand/vulcand/plugin/ratelimit"
-	"github.com/vulcand/vulcand/plugin/rewrite"
-	"github.com/vulcand/vulcand/plugin/trace"
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/cbreaker"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/connlimit"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/ratelimit"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/rewrite"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/trace"
 )
 
 func GetRegistry() *plugin.Registry {

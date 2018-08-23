@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // package stapler implements OCSP stapling feature described here: http://en.wikipedia.org/wiki/OCSP_stapling
 // stapler provides implementation that caches the staple on the first request and periodically updates the cache
 // OCSP specs:
@@ -20,8 +25,9 @@ import (
 
 	"github.com/mailgun/timetools"
 	log "github.com/sirupsen/logrus"
-	"github.com/vulcand/vulcand/engine"
 	"golang.org/x/crypto/ocsp"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
 )
 
 // Stapler is an interface for the OCSP staple cache implementations

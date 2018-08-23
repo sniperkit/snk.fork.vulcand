@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // package etcdng contains the implementation of the Etcd-backed engine, where all vulcand properties are implemented as directories or keys.
 // this engine is capable of watching the changes and generating events.
 package etcdv2ng
@@ -16,11 +21,12 @@ import (
 
 	etcd "github.com/coreos/etcd/client"
 	log "github.com/sirupsen/logrus"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/plugin"
-	"github.com/vulcand/vulcand/secret"
-	"github.com/vulcand/vulcand/utils/json"
 	"golang.org/x/net/context"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
+	"github.com/sniperkit/snk.fork.vulcand/secret"
+	"github.com/sniperkit/snk.fork.vulcand/utils/json"
 )
 
 type ng struct {

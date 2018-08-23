@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package rewrite
 
 import (
@@ -9,8 +14,9 @@ import (
 
 	"github.com/codegangsta/cli"
 	"github.com/vulcand/oxy/testutils"
-	"github.com/vulcand/vulcand/plugin"
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
 )
 
 func TestRL(t *testing.T) { TestingT(t) }

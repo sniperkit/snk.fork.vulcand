@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package rtmcollect
 
 import (
@@ -8,8 +13,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/vulcand/oxy/memmetrics"
 	"github.com/vulcand/oxy/utils"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/proxy/backend"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/proxy/backend"
 )
 
 // NewRTMetrics is a convenience wrapper around memmetrics.NewRTMetrics() to

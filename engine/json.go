@@ -1,11 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package engine
 
 import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/vulcand/vulcand/plugin"
-	"github.com/vulcand/vulcand/router"
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
+	"github.com/sniperkit/snk.fork.vulcand/router"
 )
 
 type rawServers struct {

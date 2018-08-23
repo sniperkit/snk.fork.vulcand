@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package anomaly
 
 import (
@@ -5,7 +10,8 @@ import (
 	"time"
 
 	"github.com/vulcand/oxy/memmetrics"
-	"github.com/vulcand/vulcand/engine"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
 )
 
 const (

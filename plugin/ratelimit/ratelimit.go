@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package ratelimit
 
 import (
@@ -11,7 +16,8 @@ import (
 	"github.com/mailgun/timetools"
 	"github.com/vulcand/oxy/ratelimit"
 	"github.com/vulcand/oxy/utils"
-	"github.com/vulcand/vulcand/plugin"
+
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
 )
 
 // Spec is an entry point of a plugin and will be called to register this middleware plugin withing vulcand

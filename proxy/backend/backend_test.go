@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package backend
 
 import (
@@ -5,9 +10,10 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/proxy"
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/proxy"
 )
 
 var _ = Suite(&BackendSuite{})

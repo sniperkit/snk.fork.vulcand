@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 const mainTemplate = `package main
 
 import (
 	"fmt"
-	"github.com/vulcand/vulcand/service"
+	"github.com/sniperkit/snk.fork.vulcand/service"
 	"{{.PackagePath}}/registry"
 	"os"
 )
@@ -27,7 +32,7 @@ func main() {
 const registryTemplate = `package registry
 
 import (
-	"github.com/vulcand/vulcand/plugin"
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
 	{{range .Packages}}
 	"{{.}}"
 	{{end}}
@@ -55,7 +60,7 @@ const vulcanctlTemplate = `package main
 
 import (
     log "github.com/sirupsen/logrus"
-	"github.com/vulcand/vulcand/vctl/command"
+	"github.com/sniperkit/snk.fork.vulcand/vctl/command"
 	"{{.PackagePath}}/registry"
 	"os"
 )

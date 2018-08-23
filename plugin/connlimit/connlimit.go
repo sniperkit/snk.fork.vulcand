@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package connlimit
 
 import (
@@ -7,7 +12,8 @@ import (
 	"github.com/codegangsta/cli"
 	"github.com/vulcand/oxy/connlimit"
 	"github.com/vulcand/oxy/utils"
-	"github.com/vulcand/vulcand/plugin"
+
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
 )
 
 const Type = "connlimit"

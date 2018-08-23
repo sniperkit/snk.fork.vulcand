@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package stapler
 
 import (
@@ -5,10 +10,11 @@ import (
 	"time"
 
 	"github.com/mailgun/timetools"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/testutils"
 	"golang.org/x/crypto/ocsp"
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/testutils"
 )
 
 func TestStapler(t *testing.T) { TestingT(t) }

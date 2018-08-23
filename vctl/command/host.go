@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package command
 
 import (
@@ -5,7 +10,8 @@ import (
 	"time"
 
 	"github.com/codegangsta/cli"
-	"github.com/vulcand/vulcand/engine"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
 )
 
 func NewHostCommand(cmd *Command) cli.Command {

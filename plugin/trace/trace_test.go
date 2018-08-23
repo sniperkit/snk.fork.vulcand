@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package trace
 
 import (
@@ -13,8 +18,9 @@ import (
 	"github.com/codegangsta/cli"
 	"github.com/vulcand/oxy/testutils"
 	oxytrace "github.com/vulcand/oxy/trace"
-	"github.com/vulcand/vulcand/plugin"
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
 )
 
 func setUnixSocket(c *C) *net.UnixConn {

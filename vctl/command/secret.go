@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package command
 
 import (
@@ -6,7 +11,8 @@ import (
 	"os"
 
 	"github.com/codegangsta/cli"
-	"github.com/vulcand/vulcand/secret"
+
+	"github.com/sniperkit/snk.fork.vulcand/secret"
 )
 
 func NewKeyCommand(cmd *Command) cli.Command {

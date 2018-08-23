@@ -1,9 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package builder
 
 import (
-	"github.com/vulcand/vulcand/proxy"
-	"github.com/vulcand/vulcand/proxy/mux"
-	"github.com/vulcand/vulcand/stapler"
+	"github.com/sniperkit/snk.fork.vulcand/proxy"
+	"github.com/sniperkit/snk.fork.vulcand/proxy/mux"
+	"github.com/sniperkit/snk.fork.vulcand/stapler"
 )
 
 // NewProxy returns a new Proxy instance.

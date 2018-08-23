@@ -1,10 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package plugin
 
 import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-
 	"testing"
 
 	. "gopkg.in/check.v1"

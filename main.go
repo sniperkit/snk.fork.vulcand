@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -5,8 +10,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/vulcand/vulcand/plugin/registry"
-	"github.com/vulcand/vulcand/service"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/registry"
+	"github.com/sniperkit/snk.fork.vulcand/service"
 )
 
 func main() {

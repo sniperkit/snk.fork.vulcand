@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package router
 
-import "net/http"
+import (
+	"net/http"
+)
 
 // This interface captures all routing functionality required by vulcan.
 // The routing functionality mainly comes from "github.com/vulcand/route",

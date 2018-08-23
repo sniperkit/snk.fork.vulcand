@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package engine
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type HostUpserted struct {
 	Host Host

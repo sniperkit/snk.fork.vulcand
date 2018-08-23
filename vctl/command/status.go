@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package command
 
 import (
@@ -6,7 +11,8 @@ import (
 
 	"github.com/buger/goterm"
 	"github.com/codegangsta/cli"
-	"github.com/vulcand/vulcand/engine"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
 )
 
 func NewTopCommand(cmd *Command) cli.Command {

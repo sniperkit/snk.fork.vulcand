@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package anomaly
 
 import (
@@ -5,8 +10,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/vulcand/vulcand/engine"
 	. "gopkg.in/check.v1"
+
+	. "github.com/sniperkit/snk.fork.vulcand/engine"
 )
 
 func TestAnomaly(t *testing.T) { TestingT(t) }

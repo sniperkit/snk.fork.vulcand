@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package etcdv2ng
 
 import (
@@ -7,12 +12,12 @@ import (
 	"time"
 
 	etcd "github.com/coreos/etcd/client"
-	"github.com/vulcand/vulcand/engine/test"
-	"github.com/vulcand/vulcand/plugin/registry"
-	"github.com/vulcand/vulcand/secret"
-
 	"golang.org/x/net/context"
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine/test"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/registry"
+	"github.com/sniperkit/snk.fork.vulcand/secret"
 )
 
 func TestEtcd(t *testing.T) { TestingT(t) }

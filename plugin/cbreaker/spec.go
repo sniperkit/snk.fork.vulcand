@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // cbreaker package implements circuit breaker similar to  https://github.com/Netflix/Hystrix/wiki/How-it-Works
 //
 // Vulcand circuit breaker watches the error condtion to match
@@ -31,7 +36,8 @@ import (
 
 	"github.com/codegangsta/cli"
 	"github.com/vulcand/oxy/cbreaker"
-	"github.com/vulcand/vulcand/plugin"
+
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
 )
 
 const Type = "cbreaker"

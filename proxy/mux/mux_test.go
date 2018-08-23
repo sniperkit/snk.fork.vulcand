@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package mux
 
 import (
@@ -22,13 +27,14 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/vulcand/oxy/testutils"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/plugin/cacheprovider"
-	"github.com/vulcand/vulcand/proxy"
-	"github.com/vulcand/vulcand/stapler"
-	. "github.com/vulcand/vulcand/testutils"
 	"golang.org/x/crypto/acme/autocert"
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/cacheprovider"
+	"github.com/sniperkit/snk.fork.vulcand/proxy"
+	"github.com/sniperkit/snk.fork.vulcand/stapler"
+	. "github.com/sniperkit/snk.fork.vulcand/testutils"
 )
 
 func TestServer(t *testing.T) { TestingT(t) }

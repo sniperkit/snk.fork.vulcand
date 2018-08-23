@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 $(document).ready(function(){
     anchors = $('h1 a.headerlink, h2 a.headerlink, h3 a.headerlink');
     $(window).scroll($.debounce( 250, function(){

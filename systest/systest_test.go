@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // package systest contains "Black box" tests that configure Vulcand using various methods and making sure
 // Vulcand accepts the configuration and is capable of processing requests.
 package systest
@@ -18,10 +23,11 @@ import (
 
 	etcd "github.com/coreos/etcd/client"
 	"github.com/vulcand/oxy/testutils"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/secret"
-	. "github.com/vulcand/vulcand/testutils"
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/secret"
+	. "github.com/sniperkit/snk.fork.vulcand/testutils"
 )
 
 func TestVulcandWithEtcd(t *testing.T) { TestingT(t) }

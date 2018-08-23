@@ -1,13 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package test
 
 import (
 	"testing"
 	"time"
 
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/plugin/connlimit"
-
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/connlimit"
 )
 
 func TestEtcd(t *testing.T) { TestingT(t) }

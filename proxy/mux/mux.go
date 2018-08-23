@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package mux
 
 import (
@@ -14,19 +19,20 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"github.com/vulcand/route"
-	"github.com/vulcand/vulcand/conntracker"
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/plugin"
-	"github.com/vulcand/vulcand/plugin/cacheprovider"
-	"github.com/vulcand/vulcand/proxy"
-	"github.com/vulcand/vulcand/proxy/backend"
-	"github.com/vulcand/vulcand/proxy/connctr"
-	"github.com/vulcand/vulcand/proxy/frontend"
-	"github.com/vulcand/vulcand/proxy/rtmcollect"
-	"github.com/vulcand/vulcand/proxy/server"
-	"github.com/vulcand/vulcand/router"
-	"github.com/vulcand/vulcand/stapler"
 	"golang.org/x/crypto/acme/autocert"
+
+	"github.com/sniperkit/snk.fork.vulcand/conntracker"
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/cacheprovider"
+	"github.com/sniperkit/snk.fork.vulcand/proxy"
+	"github.com/sniperkit/snk.fork.vulcand/proxy/backend"
+	"github.com/sniperkit/snk.fork.vulcand/proxy/connctr"
+	"github.com/sniperkit/snk.fork.vulcand/proxy/frontend"
+	"github.com/sniperkit/snk.fork.vulcand/proxy/rtmcollect"
+	"github.com/sniperkit/snk.fork.vulcand/proxy/server"
+	"github.com/sniperkit/snk.fork.vulcand/router"
+	"github.com/sniperkit/snk.fork.vulcand/stapler"
 )
 
 // mux is capable of listening on multiple interfaces, graceful shutdowns and updating TLS certificates

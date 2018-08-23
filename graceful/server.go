@@ -1,4 +1,9 @@
 /*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
+/*
 Package manners provides a wrapper for a standard net/http server that
 ensures all active HTTP client have completed their current request
 before the server shuts down.

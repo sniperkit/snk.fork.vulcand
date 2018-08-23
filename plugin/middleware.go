@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package plugin
 
 import (
@@ -10,9 +15,10 @@ import (
 	"github.com/vulcand/oxy/forward"
 	"github.com/vulcand/oxy/roundrobin"
 	"github.com/vulcand/route"
-	"github.com/vulcand/vulcand/conntracker"
-	"github.com/vulcand/vulcand/plugin/cacheprovider"
-	"github.com/vulcand/vulcand/router"
+
+	"github.com/sniperkit/snk.fork.vulcand/conntracker"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/cacheprovider"
+	"github.com/sniperkit/snk.fork.vulcand/router"
 )
 
 // Middleware specification, used to construct new middlewares and plug them into CLI API and backends

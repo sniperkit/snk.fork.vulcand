@@ -1,20 +1,24 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package api
 
 import (
 	"bytes"
 	"fmt"
-	"time"
-
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strings"
-
-	"github.com/vulcand/vulcand/engine"
-	"github.com/vulcand/vulcand/plugin"
-	"github.com/vulcand/vulcand/utils/json"
+	"time"
 
 	log "github.com/sirupsen/logrus"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine"
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
+	"github.com/sniperkit/snk.fork.vulcand/utils/json"
 )
 
 const CurrentVersion = "v2"

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package engine
 
 import (
@@ -7,9 +12,10 @@ import (
 	"time"
 
 	"github.com/vulcand/route"
-	"github.com/vulcand/vulcand/plugin"
-	"github.com/vulcand/vulcand/plugin/connlimit"
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.vulcand/plugin"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/connlimit"
 )
 
 func TestBackend(t *testing.T) { TestingT(t) }

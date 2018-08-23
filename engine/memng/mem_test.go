@@ -1,12 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package memng
 
 import (
 	"testing"
 
-	"github.com/vulcand/vulcand/engine/test"
-	"github.com/vulcand/vulcand/plugin/registry"
-
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.vulcand/engine/test"
+	"github.com/sniperkit/snk.fork.vulcand/plugin/registry"
 )
 
 func TestMem(t *testing.T) { TestingT(t) }
